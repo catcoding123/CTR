@@ -1,5 +1,11 @@
-# Tensorflow deep model for ctr: wide & deep/ deepfm/ deep cross network/ AFM/ FNN
+#Tensorflow deep model for ctr: wide & deep/ deepfm/ deep cross network/ AFM/ FNN
 
 This repository contain :
 * offline demo for deep ctr
 * online predict for ctr
+
+参考：
+> [deep cross paper](https://arxiv.org/pdf/1708.05123.pdf)
+> [deep cross code](https://github.com/shenweichen/DeepCTR)
+> [deep ctr code](https://github.com/lambdaji/tf_repos)
+> [wide & deep code](https://github.com/tensorflow/models/tree/master/official/wide_deep)
