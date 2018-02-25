@@ -1,0 +1,5 @@
+# Tensorflow deep model for ctr: wide & deep/ deepfm/ deep cross network/ AFM/ FNN
+
+This repository contain :
+* offline demo for deep ctr
+* online predict for ctr
