@@ -19,7 +19,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/common/')
 sys.path.append(os.getcwd())
 from function import *
 
-def deepfm_model_fn(features, labels, mode, params):
+def model_fn(features, labels, mode, params):
     #------hyperparameters----
     field_size = params["field_size"]
     feature_size = params["feature_size"]
