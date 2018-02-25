@@ -20,9 +20,10 @@ import random
 import pandas as pd
 import numpy as np
 import tensorflow as tf
+sys.path.append(os.path.dirname(os.path.abspath(__file__)) + '/common/')
+sys.path.append(os.getcwd())
+from data.data_reader import input_fn
 
-
-#################### CMD Arguments ####################
 FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_integer("num_threads", 16, "Number of threads")
 tf.app.flags.DEFINE_integer("feature_size", 0, "Number of features")
